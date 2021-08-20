@@ -838,6 +838,15 @@ body.lock {
     position: relative;
     z-index: 15;
     padding: 136px 0; }
+    @media (max-width: 1024px) {
+      .pictures__bgwords {
+        padding: 85px 0; } }
+    @media (max-width: 768px) {
+      .pictures__bgwords {
+        padding: 50px 0; } }
+    @media (max-width: 320px) {
+      .pictures__bgwords {
+        padding: 105px 0; } }
   .pictures__paperclips {
     color: #ffffff;
     font-family: 'Raleway';
@@ -1183,15 +1192,11 @@ body.lock {
     -o-transition: all 0.8s ease 0s;
     transition: all 0.8s ease 0s; }
     .photocamera__image:hover {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
       -webkit-box-shadow: 5px -5px 15px #000;
       box-shadow: 5px -5px 15px #000; }
-      .photocamera__image:hover:active {
-        -webkit-transform: scale(2);
-        -ms-transform: scale(2);
-        transform: scale(2); }
     @media (max-width: 768px) {
       .photocamera__image {
         -ms-grid-column-align: start;
